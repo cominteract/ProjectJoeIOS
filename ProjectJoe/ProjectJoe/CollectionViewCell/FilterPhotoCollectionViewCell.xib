@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FilterPhotoCollectionViewCell" id="gTV-IL-0wX" customClass="FilterPhotoCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dE5-S1-6aj">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dE5-S1-6aj" firstAttribute="leading" secondItem="SEy-5g-ep8" secondAttribute="leading" id="Vxk-lt-2Sr"/>
+                <constraint firstItem="dE5-S1-6aj" firstAttribute="top" secondItem="SEy-5g-ep8" secondAttribute="top" id="Y6z-CX-5E2"/>
+                <constraint firstItem="SEy-5g-ep8" firstAttribute="bottom" secondItem="dE5-S1-6aj" secondAttribute="bottom" id="Ya1-Jx-slc"/>
+                <constraint firstItem="SEy-5g-ep8" firstAttribute="trailing" secondItem="dE5-S1-6aj" secondAttribute="trailing" id="hTF-HF-0GI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="224" height="173"/>
+            <connections>
+                <outlet property="filterPhotoCellImageView" destination="dE5-S1-6aj" id="SfY-Or-jcn"/>
+            </connections>
+            <point key="canvasLocation" x="12" y="128.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

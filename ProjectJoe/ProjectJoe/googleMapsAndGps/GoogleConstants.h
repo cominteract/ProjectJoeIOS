@@ -1,0 +1,144 @@
+//
+//  GoogleConstants.h
+//  AIBits
+//
+//  Created by Admin on 3/24/18.
+//  Copyright © 2018 andre insigne. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+const NSString *kGoogle_accounting = @"accounting";
+const NSString *kGoogle_airport= @"airport";
+const NSString *kGoogle_aquarium = @"aquarium";
+const NSString *kGoogle_art_gallery = @"art_gallery";
+const NSString *kGoogle_atm = @"atm";
+const NSString *kGoogle_bakery = @"bakery";
+const NSString *kGoogle_bank = @"bank";
+const NSString *kGoogle_bar = @"bar";
+const NSString *kGoogle_beauty_salon = @"beauty_salon";
+const NSString *kGoogle_bicycle_store = @"bicycle_store";
+const NSString *kGoogle_book_store = @"book_store";
+const NSString *kGoogle_bowling_alley = @"bowling_alley";
+const NSString *kGoogle_bus_station = @"bus_station";
+const NSString *kGoogle_cafe = @"cafe";
+const NSString *kGoogle_campground = @"campground";
+const NSString *kGoogle_car_dealer = @"car_dealer";
+const NSString *kGoogle_car_rental = @"car_rental";
+const NSString *kGoogle_car_repair = @"car_repair";
+const NSString *kGoogle_car_wash = @"car_wash";
+const NSString *kGoogle_casino= @"casino";
+const NSString *kGoogle_cemetery = @"cemetery";
+const NSString *kGoogle_church= @"bowling_alley";
+const NSString *kGoogle_city_hall= @"city_hall";
+const NSString *kGoogle_clothing_store= @"clothing_store";
+const NSString *kGoogle_convenience_store= @"convenience_store";
+const NSString *kGoogle_courthouse= @"courthouse";
+const NSString *kGoogle_dentist= @"dentist";
+const NSString *kGoogle_department_store= @"department_store";
+const NSString *kGoogle_doctor= @"doctor";
+const NSString *kGoogle_electrician= @"electrician";
+const NSString *kGoogle_electronics_store= @"electronics_store";
+const NSString *kGoogle_embassy= @"embassy";
+const NSString *kGoogle_fire_station= @"fire_station";
+const NSString *kGoogle_florist= @"florist";
+const NSString *kGoogle_funeral_home= @"funeral_home";
+const NSString *kGoogle_furniture_store= @"furniture_store";
+const NSString *kGoogle_gas_station= @"gas_station";
+const NSString *kGoogle_gym= @"gym";
+const NSString *kGoogle_hair_care= @"hair_care";
+const NSString *kGoogle_hardware_store= @"hardware_store";
+const NSString *kGoogle_hindu_temple= @"hindu_temple";
+const NSString *kGoogle_home_goods_store= @"home_goods_store";
+const NSString *kGoogle_hospital= @"hospital";
+const NSString *kGoogle_insurance_agency= @"insurance_agency";
+const NSString *kGoogle_jewelry_store= @"jewelry_store";
+const NSString *kGoogle_laundry= @"laundry";
+const NSString *kGoogle_lawyer= @"lawyer";
+const NSString *kGoogle_library= @"library";
+const NSString *kGoogle_liquor_store= @"liquor_store";
+const NSString *kGoogle_local_government_office= @"local_government_office";
+const NSString *kGoogle_locksmith= @"locksmith";
+const NSString *kGoogle_lodging= @"lodging";
+const NSString *kGoogle_meal_delivery= @"meal_delivery";
+const NSString *kGoogle_meal_takeaway= @"meal_takeaway";
+const NSString *kGoogle_mosque= @"mosque";
+const NSString *kGoogle_movie_rental= @"movie_rental";
+const NSString *kGoogle_movie_theater= @"movie_theater";
+const NSString *kGoogle_moving_company= @"moving_company";
+const NSString *kGoogle_museum= @"museum";
+const NSString *kGoogle_night_club= @"night_club";
+const NSString *kGoogle_painter= @"painter";
+const NSString *kGoogle_park= @"park";
+const NSString *kGoogle_parking= @"parking";
+const NSString *kGoogle_pet_store= @"pet_store";
+const NSString *kGoogle_pharmacy= @"pharmacy";
+const NSString *kGoogle_physiotherapist= @"physiotherapist";
+const NSString *kGoogle_plumber= @"plumber";
+const NSString *kGoogle_police= @"police";
+const NSString *kGoogle_post_office= @"post_office";
+const NSString *kGoogle_real_estate_agency= @"real_estate_agency";
+const NSString *kGoogle_restaurant= @"restaurant";
+const NSString *kGoogle_roofing_contractor= @"roofing_contractor";
+const NSString *kGoogle_rv_park= @"rv_park";
+const NSString *kGoogle_school= @"school";
+const NSString *kGoogle_shoe_store= @"shoe_store";
+const NSString *kGoogle_shopping_mall= @"shopping_mall";
+const NSString *kGoogle_spa= @"spa";
+const NSString *kGoogle_stadium= @"stadium";
+const NSString *kGoogle_storage= @"storage";
+const NSString *kGoogle_store= @"store";
+const NSString *kGoogle_subway_station= @"subway_station";
+const NSString *kGoogle_supermarket= @"synagogue";
+const NSString *kGoogle_taxi_stand= @"taxi_stand";
+const NSString *kGoogle_train_station= @"train_station";
+const NSString *kGoogle_transit_station= @"transit_station";
+const NSString *kGoogle_travel_agency= @"travel_agency";
+const NSString *kGoogle_veterinary_care= @"veterinary_care";
+const NSString *kGoogle_zoo= @"zoo";
+const NSString *kGoogle_administrative_area_level_1= @"administrative_area_level_1";
+const NSString *kGoogle_administrative_area_level_2= @"administrative_area_level_2";
+const NSString *kGoogle_administrative_area_level_3= @"administrative_area_level_3";
+const NSString *kGoogle_administrative_area_level_4= @"administrative_area_level_4";
+const NSString *kGoogle_administrative_area_level_5= @"administrative_area_level_5";
+const NSString *kGoogle_colloquial_area= @"colloquial_area";
+const NSString *kGoogle_country= @"country";
+const NSString *kGoogle_establishment= @"establishment";
+const NSString *kGoogle_finance= @"finance";
+const NSString *kGoogle_floor= @"floor";
+const NSString *kGoogle_food= @"food";
+const NSString *kGoogle_general_contractor= @"general_contractor";
+const NSString *kGoogle_geocode= @"geocode";
+const NSString *kGoogle_health= @"health";
+const NSString *kGoogle_intersection= @"intersection";
+const NSString *kGoogle_locality= @"locality";
+const NSString *kGoogle_natural_feature= @"natural_feature";
+const NSString *kGoogle_neighborhood= @"neighborhood";
+const NSString *kGoogle_place_of_worship= @"place_of_worship";
+const NSString *kGoogle_political= @"political";
+const NSString *kGoogle_point_of_interest= @"point_of_interest";
+const NSString *kGoogle_post_box= @"post_box";
+const NSString *kGoogle_postal_code= @"postal_code";
+const NSString *kGoogle_postal_code_prefix= @"postal_code_prefix";
+const NSString *kGoogle_postal_code_suffix= @"postal_code_suffix";
+const NSString *kGoogle_postal_town= @"postal_town";
+const NSString *kGoogle_premise= @"premise";
+const NSString *kGoogle_room= @"room";
+const NSString *kGoogle_route= @"route";
+const NSString *kGoogle_street_address= @"street_address";
+const NSString *kGoogle_street_number= @"street_number";
+const NSString *kGoogle_sublocality= @"sublocality";
+const NSString *kGoogle_sublocality_level_1= @"sublocality_level_1";
+const NSString *kGoogle_sublocality_level_2= @"sublocality_level_2";
+const NSString *kGoogle_sublocality_level_3= @"sublocality_level_3";
+const NSString *kGoogle_sublocality_level_4= @"sublocality_level_4";
+const NSString *kGoogle_sublocality_level_5= @"sublocality_level_5";
+const NSString *kGoogle_subpremise= @"subpremise";
+const NSString *kGoogle_Radius_Around= @"1500";
+const NSString *kGoogle_Radius_Near= @"5000";
+const NSString *kGoogle_Radius_Far= @"10000";
+const NSString *kGoogle_Radius_Global= @"100000";
+@interface GoogleConstants : NSObject
+@property(strong,nonatomic) NSArray *googleCategoryList;
+@end
+

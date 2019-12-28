@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DiscoverNewsTableViewCell" rowHeight="253" id="KGk-i7-Jjw" customClass="DiscoverNewsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="253"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="252.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxj-WW-Xha">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJW-kG-Aj5">
+                                <rect key="frame" x="8" y="10" width="304" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31372549020000001" green="0.32156862749999998" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uJW-kG-Aj5" secondAttribute="trailing" constant="8" id="134-eb-POB"/>
+                            <constraint firstItem="uJW-kG-Aj5" firstAttribute="top" secondItem="wxj-WW-Xha" secondAttribute="top" constant="10" id="B8m-nK-ieI"/>
+                            <constraint firstAttribute="height" constant="83" id="XEd-be-O5l"/>
+                            <constraint firstItem="uJW-kG-Aj5" firstAttribute="leading" secondItem="wxj-WW-Xha" secondAttribute="leading" constant="8" id="uLm-k3-lef"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsfeed" translatesAutoresizingMaskIntoConstraints="NO" id="Iu1-XH-VyX">
+                        <rect key="frame" x="0.0" y="80" width="320" height="173"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="wxj-WW-Xha" secondAttribute="trailing" id="1BB-lo-eId"/>
+                    <constraint firstItem="wxj-WW-Xha" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6NG-L5-eil"/>
+                    <constraint firstAttribute="bottom" secondItem="Iu1-XH-VyX" secondAttribute="bottom" constant="-0.5" id="PLl-kQ-6av"/>
+                    <constraint firstItem="wxj-WW-Xha" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RIF-mw-Zfo"/>
+                    <constraint firstAttribute="trailing" secondItem="Iu1-XH-VyX" secondAttribute="trailing" id="Vcl-Pv-78M"/>
+                    <constraint firstItem="Iu1-XH-VyX" firstAttribute="top" secondItem="wxj-WW-Xha" secondAttribute="bottom" constant="-3" id="bQR-vi-Omg"/>
+                    <constraint firstItem="Iu1-XH-VyX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="puE-XU-HeY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="discoverNewsImage" destination="Iu1-XH-VyX" id="CPK-5t-kvK"/>
+                <outlet property="discoverNewsTitleLabel" destination="uJW-kG-Aj5" id="K0T-DB-SVQ"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="48.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="newsfeed" width="397" height="183"/>
+    </resources>
+</document>

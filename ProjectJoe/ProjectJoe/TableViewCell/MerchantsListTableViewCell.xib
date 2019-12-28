@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MerchantsListTableViewCell" rowHeight="198" id="KGk-i7-Jjw" customClass="MerchantsListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="197.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nike" translatesAutoresizingMaskIntoConstraints="NO" id="emk-ya-lg7">
+                        <rect key="frame" x="14" y="34" width="118" height="118"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="118" id="S3k-uU-Y6j"/>
+                            <constraint firstAttribute="width" constant="118" id="p0W-yo-DjB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQw-Ds-21W">
+                        <rect key="frame" x="165" y="34" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FV9-gB-BjM">
+                        <rect key="frame" x="165" y="63" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="FV9-gB-BjM" firstAttribute="top" secondItem="bQw-Ds-21W" secondAttribute="bottom" constant="8" id="08u-kK-nHj"/>
+                    <constraint firstItem="bQw-Ds-21W" firstAttribute="leading" secondItem="emk-ya-lg7" secondAttribute="trailing" constant="33" id="7TK-2b-COj"/>
+                    <constraint firstItem="FV9-gB-BjM" firstAttribute="leading" secondItem="emk-ya-lg7" secondAttribute="trailing" constant="33" id="SkN-Ww-YmI"/>
+                    <constraint firstItem="bQw-Ds-21W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="VPb-yK-AgC"/>
+                    <constraint firstItem="emk-ya-lg7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="npB-As-oD4"/>
+                    <constraint firstItem="emk-ya-lg7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="yB4-Ql-3JU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="merchantDetails" destination="FV9-gB-BjM" id="Hwe-3J-oac"/>
+                <outlet property="merchantImage" destination="emk-ya-lg7" id="0p8-Lj-Syz"/>
+                <outlet property="merchantTitle" destination="bQw-Ds-21W" id="QcN-LK-ayb"/>
+            </connections>
+            <point key="canvasLocation" x="67" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="nike" width="118" height="93"/>
+    </resources>
+</document>
